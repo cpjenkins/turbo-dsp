@@ -1,0 +1,53 @@
+# build cruff
+.deps/
+bin/
+dist/
+build/
+*.egg-info
+
+# test artifacts
+.coverage
+*.info
+htmlcov/
+*.gcda
+*.gcno
+
+# local scratch space
+local/
+
+# compiled types
+*.so
+*.exe
+*.a
+*.d
+*.o
+*.pyc
+*.pyi
+*.whl
+
+# compiled protobuf files
+*_pb2.py
+*.pb.h
+*.pb.cc
+
+# file breadcrumbs
+*.swp
+
+# common temporary file types
+*.tmp
+*.prm
+*.bak
+
+# qt moc files
+**/moc_*.cc
+
+# ide, editors, and language server goodies
+.idea
+.cache
+.ccls
+.clangd
+.kanbn
+.dir-locals.el
+compile_commands.json
+.hypothesis
+.vscode
